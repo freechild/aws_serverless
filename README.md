@@ -33,7 +33,11 @@ $ git clone https://github.com/freechild/aws_serverless.git
 > IAM은 AWS에 대한 접근을 관리하는 서비스입니다. 
 > 필요에 따라 여러 종류의 권한을 부여,삭제가 가능하다.
 
-1. [AWS Console][aws-console]에 로그인 후, [IAM Console] -> 사용자 추가 -> 추가된 유저에서 권한 부여 ( AdministratorAccess ) -> 발급된 Access Key ID,Secret Key ID 저장
+1. [AWS Console][aws-console]에 로그인
+2. [IAM Console]
+3. 사용자 추가
+4. 추가된 유저에서 권한 부여 ( AdministratorAccess ) 
+5. 발급된 Access Key ID,Secret Key ID 저장
 
 
 <br><br><br>
