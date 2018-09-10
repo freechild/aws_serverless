@@ -1,5 +1,5 @@
-# aws-serverless 사용하기 - serverless 프레임워크 활용
-
+# aws-serverless - serverless 프레임워크 활용
+## 서버리스를 사용하자!
 
 <br><br><br>
 
