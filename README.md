@@ -45,6 +45,7 @@ npm install -g serverless -g
 ```
 
 2. serverless 프로젝트 생성
+<br>
 ex)
 ```bash
 sls create -t 사용할 템플릿 -p 경로의 폴더명
@@ -54,22 +55,23 @@ sls create -t 사용할 템플릿 -p 경로의 폴더명
 ```bash
 sls create -t aws-nodejs -p hello-wolrd
 ```
-
+<br>
 3. aws 계정 설정 (프로젝트 폴더로 이동)
-발급받은 키를 입력
+<br>
+키 입력란에 발급받은 키를 입력해주세요.
 ```bash
 cd hello-wolrd
 echo 'export AWS_ACCESS_KEY_ID=Access Key 입력' >> .aws-credentials
 echo 'export AWS_SECRET_ACCESS_KEY=Secret Key 입력' >> .aws-credentials
 source .aws-credentials
 ```
-
+<br>
 4. 설정파일 수정
-프로젝트 파일안에 있는 serverless.yml 열어봅시다.
-
-provider 적혀있는 위치를 찾아주세요 ( 2x줄 )
-provider 원하는 서버버젼,위치,스테이지 이름을 입력해주세요.
-지역명 ap-northeast-2 <- 한국
+<br>
+프로젝트 파일안에 있는 serverless.yml 열어봅시다.<br>
+provider 적혀있는 위치를 찾아주세요. ( 2x줄 )<br>
+provider 원하는 서버버젼,위치,스테이지 이름을 입력해주세요.<br>
+ps. 한국지역명 :  ap-northeast-2<br>
 
 ex)
 ```js
@@ -89,8 +91,8 @@ provider:
   region: ap-northeast-2
 ```
 
-라우터도 설정해주세요 ( 라우터 설정시 api 게이트웨이 설정됨)
-functions 적혀있는 위치를 찾아주세요 ( 6x줄 )
+라우터도 설정 ( 라우터 설정시 api 게이트웨이 설정됨)<br>
+functions 적혀있는 위치를 찾아주세요. ( 6x줄 )<br>
 ex)
 ```js
 functions:
@@ -114,9 +116,10 @@ functions:
           method: get      
 ```
 
-
+<br>
 5. 람다 함수 생성
-이제 만들어진 파일을 최초로 푸시를 합니다. (최초의 푸시는 시간이 걸립니다.)
+<br>
+이제 만들어진 파일을 최초로 푸시를 합시다. (최초의 푸시는 시간이 걸립니다.)
 
 ```bash
 sls deploy
