@@ -64,7 +64,7 @@ sls create -t aws-nodejs -p hello-wolrd
 <br>
 3. aws 계정 설정 (프로젝트 폴더로 이동)
 <br>
-키 입력란에 발급받은 키를 입력해주세요.
+###키 입력란에 발급받은 키를 입력해주세요.
 
 ```bash
 cd hello-wolrd
@@ -74,11 +74,9 @@ source .aws-credentials
 ```
 <br>
 4. 설정파일 수정
-<br>
-프로젝트 파일안에 있는 serverless.yml 열어봅시다.<br>
-provider 적혀있는 위치를 찾아주세요. ( 2x줄 )<br>
-provider 원하는 서버버젼,위치,스테이지 이름을 입력해주세요.<br>
-ps. 한국지역명 :  ap-northeast-2<br>
+###프로젝트 파일안에 있는 serverless.yml 열어봅시다.
+###provider 설정
+###ps. 한국지역명 :  ap-northeast-2
 
 ex)
 ```js
@@ -98,8 +96,7 @@ provider:
   region: ap-northeast-2
 ```
 
-라우터도 설정 ( 라우터 설정시 api 게이트웨이 설정됨)<br>
-functions 적혀있는 위치를 찾아주세요. ( 6x줄 )<br>
+라우터 설정 ( 라우터 설정시 api 게이트웨이 설정됨)<br>
 ex)
 ```js
 functions:
