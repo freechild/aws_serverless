@@ -48,10 +48,8 @@ $ git clone https://github.com/freechild/aws_serverless.git
 npm install -g serverless -g
 ```
 
-2. serverless 프로젝트 생성
-<br>
+2. serverless 프로젝트 생성<br>
 ex)
-
 ```bash
 sls create -t 사용할 템플릿 -p 경로의 폴더명
 ```
