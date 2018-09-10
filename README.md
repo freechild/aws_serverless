@@ -33,8 +33,8 @@ $ git clone https://github.com/freechild/aws_serverless.git
 > IAM은 AWS에 대한 접근을 관리하는 서비스입니다. 
 > 필요에 따라 여러 종류의 권한을 부여,삭제가 가능하다.
 
-1. [AWS Console][aws-console]에 로그인
-2. [IAM Console]
+1. [AWS Console][aws-console] 로그인
+2. [IAM Console][iam-console] 이동
 3. 사용자 추가
 4. 추가된 유저에서 권한 부여 ( AdministratorAccess ) 
 5. 발급된 Access Key ID,Secret Key ID 저장
@@ -50,12 +50,15 @@ npm install -g serverless -g
 
 2. serverless 프로젝트 생성
 <br>
+
 ex)
+
 ```bash
 sls create -t 사용할 템플릿 -p 경로의 폴더명
 ```
 
 따라하기)
+
 ```bash
 sls create -t aws-nodejs -p hello-wolrd
 ```
