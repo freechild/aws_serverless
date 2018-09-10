@@ -49,8 +49,6 @@ npm install -g serverless -g
 ```
 
 2. serverless 프로젝트 생성
-<br>
-
 ex)
 
 ```bash
@@ -62,10 +60,12 @@ sls create -t 사용할 템플릿 -p 경로의 폴더명
 ```bash
 sls create -t aws-nodejs -p hello-wolrd
 ```
+
 <br>
 3. aws 계정 설정 (프로젝트 폴더로 이동)
 <br>
 키 입력란에 발급받은 키를 입력해주세요.
+
 ```bash
 cd hello-wolrd
 echo 'export AWS_ACCESS_KEY_ID=Access Key 입력' >> .aws-credentials
