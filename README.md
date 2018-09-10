@@ -49,6 +49,7 @@ npm install -g serverless -g
 ```
 
 2. serverless 프로젝트 생성
+<br>
 ex)
 
 ```bash
