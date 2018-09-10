@@ -42,7 +42,7 @@ $ git clone https://github.com/freechild/aws_serverless.git
 
 <br><br><br>
 
-## 사용
+## serverless 프레임워크 설치 및 aws lamda 함수 생성
 1. serverless 설치
 ```bash
 npm install -g serverless -g
@@ -63,7 +63,7 @@ sls create -t aws-nodejs -p hello-wolrd
 
 <br>
 3. aws 계정 설정 (프로젝트 폴더로 이동)
-> 키 입력란에 발급받은 키를 입력해주세요.
+키 입력란에 발급받은 키를 입력해주세요.
 
 ```bash
 cd hello-wolrd
@@ -127,6 +127,23 @@ functions:
 
 ```bash
 sls deploy
+```
+
+6. 푸시가 정상적으로 이루어졌다면 콘솔창에 주소가 나옵니다. 들어가보셔서 확인해보세요.
+
+
+## Mysql 사용
+
+1. mysql를 사용하기 위해여 필요한 패키지 설치해주세요.
+
+필요한 패키지<br>
+mysql2 or mysql 설치 (mysql 커넥터 패키지)
+dotenv 설치 (설정파일을 편하게 관리해주는 패키지)
+
+```bash
+npm init -y
+npm install -i mysql2
+npm install -i dotenv
 ```
 
 
