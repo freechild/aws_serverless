@@ -1,4 +1,4 @@
-# serverless 프레임워크를 aws-serverless 사용하기
+# aws-serverless 사용하기 - serverless 프레임워크 활용
 
 
 <br><br><br>
