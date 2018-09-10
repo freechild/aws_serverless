@@ -63,8 +63,7 @@ sls create -t aws-nodejs -p hello-wolrd
 
 <br>
 3. aws 계정 설정 (프로젝트 폴더로 이동)
-<br>
-###키 입력란에 발급받은 키를 입력해주세요.
+> 키 입력란에 발급받은 키를 입력해주세요.
 
 ```bash
 cd hello-wolrd
@@ -74,9 +73,10 @@ source .aws-credentials
 ```
 <br>
 4. 설정파일 수정
-###프로젝트 파일안에 있는 serverless.yml 열어봅시다.
-###provider 설정
-###ps. 한국지역명 :  ap-northeast-2
+<br>
+프로젝트 파일안에 있는 serverless.yml 열어봅시다.<br>
+provider 설정<br>
+ps. 한국지역명 :  ap-northeast-2<br>
 
 ex)
 ```js
